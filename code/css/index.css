@@ -1,0 +1,26 @@
+/* 向下更精彩 */
+.more {
+    position: fixed;
+    right: 60px;
+    bottom: 100px;
+    z-index: 99;
+    animation: more 0.6s linear infinite alternate;
+}
+
+@keyframes more {
+    to {
+        bottom: 80px;
+    }
+}
+
+/* 绘制内容的父容器 */
+
+.wraper {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -450px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
